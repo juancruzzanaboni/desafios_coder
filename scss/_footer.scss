@@ -1,0 +1,17 @@
+footer{
+	background-color: $backgroundBlack;
+	div{
+		.divFooter{
+			width: 20%;
+			margin: 1%;
+			padding: 0;
+			justify-content: center;
+			@media only screen and (min-width: 768px){
+				width: 17%;
+			}
+			@media only screen and (min-width: 1024px){
+				width: 11%;
+			}
+		}
+	}
+}

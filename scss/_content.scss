@@ -1,0 +1,147 @@
+
+
+@mixin background($color, $width, $position, $attachment, $repeat){
+	background-color: $backgroundBlack;
+	background-size: $w-100;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+.bodyBackgroundIndex{
+	@include background($backgroundBlack, $w-100, center, fixed, no-repeat);
+}
+
+.bodyBackgroundStaff{
+	@extend .bodyBackgroundIndex;
+	background-color: map-get($map:$paleta,$key:'dos');
+}
+
+@each $background in bodyBackgroundBuceo, bodyBackgroundHospedaje, bodyBackgroundContacto{
+	.#{$background}{
+		background-image: url(../img/#{$background}.jpg);
+		background-color: $backgroundBlack;
+		background-size: $w-100;
+		background-position: center;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+	}
+}
+
+#mainIndex{
+	height: 700px;
+	font-family: $fontSecondary;
+}
+
+#mainBuceo, #mainStaff, #mainHospedaje{
+	font-family: $fontSecondary;
+	section{
+		h1{
+			width: 99%;
+			position: absolute;
+			font-size: 1.1rem;
+			text-align: center;
+			color: white;
+			margin: 5px 0 !important;
+			background-color: $backgroundTransparent;
+			animation-name: textAlpha;
+			animation-duration: 5s;
+			@media only screen and (min-width: 600px){
+				font-size: 1.5rem;
+			}
+			@media only screen and (min-width: 1024px){
+				font-size: 1.8rem;
+			}
+		}
+		figure{
+			figcaption{
+				h2{
+					width: 100%;
+					font-size: 1rem;
+					text-align: center;
+					color: white;
+					margin: 15px 0px;
+					animation-name: textAlpha;
+					animation-duration: 5s;
+					@media only screen and (min-width: 600px){
+						font-size: 1.2rem;
+					}
+					@media only screen and (min-width: 1024px){
+						font-size: 1.5rem;
+					}
+				}
+				p{
+					width: $w-100;
+					font-size: 0.85rem;
+					text-align: center;
+					color: white;
+					animation-name: textAlpha;
+					animation-duration: 5s;
+				}
+				.description{
+					width: 90%;
+					font-size: 0.85rem;
+					text-align: left;
+					color: white;
+					font-style: italic;
+					margin: 15px;
+					animation-name: textAlpha;
+					animation-duration: 5s;
+				}
+			}
+		}
+	}
+}
+
+#mainContacto{
+	font-family: $fontSecondary;
+	h1{
+		width: 99%;
+		position: absolute;
+		font-size: 1.1rem;
+		text-align: center;
+		color: white;
+		margin: 5px 0 !important;
+		background-color: $backgroundTransparent;
+		animation-name: textAlpha;
+		animation-duration: 5s;
+		@media only screen and (min-width: 600px){
+			font-size: 1.5rem;
+		}
+		@media only screen and (min-width: 1024px){
+			font-size: 1.8rem;
+		}
+	}
+	form{
+		fieldset{
+			div{
+				legend{
+					animation-name: textAlpha;
+					animation-duration: 5s;
+					font-size: 0.8rem;
+					text-align: center;
+				}
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

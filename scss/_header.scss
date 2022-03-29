@@ -1,0 +1,41 @@
+header{
+	font-family: $fontSecondary;
+	nav{
+		background-color: $backgroundBlack;
+		div{
+			#logoNav{
+				width: 20%;
+				border-radius: 50%;
+				img{
+					border-radius: 50%;
+				}
+			}
+			div{
+				ul{
+					li{
+						a{
+							animation-name: textAlpha;
+							animation-duration: 5s;
+							&:hover{
+								color: map-get($map:$paleta,$key:'tres');
+							}
+						}
+					}
+				}
+				ul{
+					li{
+						a{
+							img{
+								&:hover{
+									transform: rotateZ(720deg);
+									cursor: pointer;
+									transition: transform 2s;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

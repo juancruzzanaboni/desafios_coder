@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Red+Hat+Mono&display=swap");
+@keyframes textAlpha {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+header {
+  font-family: "Montserrat", sans-serif; }
+  header nav {
+    background-color: black; }
+    header nav div #logoNav {
+      width: 20%;
+      border-radius: 50%; }
+      header nav div #logoNav img {
+        border-radius: 50%; }
+    header nav div div ul li a {
+      animation-name: textAlpha;
+      animation-duration: 5s; }
+      header nav div div ul li a:hover {
+        color: red; }
+    header nav div div ul li a img:hover {
+      transform: rotateZ(720deg);
+      cursor: pointer;
+      transition: transform 2s; }
+
+.bodyBackgroundIndex, .bodyBackgroundStaff {
+  background-color: black;
+  background-size: 100%;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat; }
+
+.bodyBackgroundStaff {
+  background-color: white; }
+
+.bodyBackgroundBuceo {
+  background-image: url(../img/bodyBackgroundBuceo.jpg);
+  background-color: black;
+  background-size: 100%;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat; }
+
+.bodyBackgroundHospedaje {
+  background-image: url(../img/bodyBackgroundHospedaje.jpg);
+  background-color: black;
+  background-size: 100%;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat; }
+
+.bodyBackgroundContacto {
+  background-image: url(../img/bodyBackgroundContacto.jpg);
+  background-color: black;
+  background-size: 100%;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat; }
+
+#mainIndex {
+  height: 700px;
+  font-family: "Montserrat", sans-serif; }
+
+#mainBuceo, #mainStaff, #mainHospedaje {
+  font-family: "Montserrat", sans-serif; }
+  #mainBuceo section h1, #mainStaff section h1, #mainHospedaje section h1 {
+    width: 99%;
+    position: absolute;
+    font-size: 1.1rem;
+    text-align: center;
+    color: white;
+    margin: 5px 0 !important;
+    background-color: rgba(0, 0, 0, 0.5);
+    animation-name: textAlpha;
+    animation-duration: 5s; }
+    @media only screen and (min-width: 600px) {
+      #mainBuceo section h1, #mainStaff section h1, #mainHospedaje section h1 {
+        font-size: 1.5rem; } }
+    @media only screen and (min-width: 1024px) {
+      #mainBuceo section h1, #mainStaff section h1, #mainHospedaje section h1 {
+        font-size: 1.8rem; } }
+  #mainBuceo section figure figcaption h2, #mainStaff section figure figcaption h2, #mainHospedaje section figure figcaption h2 {
+    width: 100%;
+    font-size: 1rem;
+    text-align: center;
+    color: white;
+    margin: 15px 0px;
+    animation-name: textAlpha;
+    animation-duration: 5s; }
+    @media only screen and (min-width: 600px) {
+      #mainBuceo section figure figcaption h2, #mainStaff section figure figcaption h2, #mainHospedaje section figure figcaption h2 {
+        font-size: 1.2rem; } }
+    @media only screen and (min-width: 1024px) {
+      #mainBuceo section figure figcaption h2, #mainStaff section figure figcaption h2, #mainHospedaje section figure figcaption h2 {
+        font-size: 1.5rem; } }
+  #mainBuceo section figure figcaption p, #mainStaff section figure figcaption p, #mainHospedaje section figure figcaption p {
+    width: 100%;
+    font-size: 0.85rem;
+    text-align: center;
+    color: white;
+    animation-name: textAlpha;
+    animation-duration: 5s; }
+  #mainBuceo section figure figcaption .description, #mainStaff section figure figcaption .description, #mainHospedaje section figure figcaption .description {
+    width: 90%;
+    font-size: 0.85rem;
+    text-align: left;
+    color: white;
+    font-style: italic;
+    margin: 15px;
+    animation-name: textAlpha;
+    animation-duration: 5s; }
+
+#mainContacto {
+  font-family: "Montserrat", sans-serif; }
+  #mainContacto h1 {
+    width: 99%;
+    position: absolute;
+    font-size: 1.1rem;
+    text-align: center;
+    color: white;
+    margin: 5px 0 !important;
+    background-color: rgba(0, 0, 0, 0.5);
+    animation-name: textAlpha;
+    animation-duration: 5s; }
+    @media only screen and (min-width: 600px) {
+      #mainContacto h1 {
+        font-size: 1.5rem; } }
+    @media only screen and (min-width: 1024px) {
+      #mainContacto h1 {
+        font-size: 1.8rem; } }
+  #mainContacto form fieldset div legend {
+    animation-name: textAlpha;
+    animation-duration: 5s;
+    font-size: 0.8rem;
+    text-align: center; }
+
+footer {
+  background-color: black; }
+  footer div .divFooter {
+    width: 20%;
+    margin: 1%;
+    padding: 0;
+    justify-content: center; }
+    @media only screen and (min-width: 768px) {
+      footer div .divFooter {
+        width: 17%; } }
+    @media only screen and (min-width: 1024px) {
+      footer div .divFooter {
+        width: 11%; } }

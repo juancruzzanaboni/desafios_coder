@@ -1,0 +1,204 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+	font-family: "Montserrat", sans-serif;
+}
+
+.bodyBackgroundIndex{
+/*	background-image: url(../img/arrecife2.jpg);*/
+	background-color: black;
+	background-size: 100%;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+.bodyBackgroundBuceo{
+	background-image: url(../img/arrecife2.jpg);
+	background-color: black;
+	background-size: 100%;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+.bodyBackgroundHospedaje{
+	background-image: url(../img/piramides_atardecer.jpg);
+	background-color: black;
+	background-size: 100%;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;	
+}
+
+.bodyBackgroundContacto{
+	background-image: url(../img/meros.jpg);
+	background-color: black;
+	background-size: 100%;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+.bodyBackgroundStaff{
+/*	background-image: url(../img/corynactis.jpg);*/
+	background-color: black;
+	background-size: 100%;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;	
+}	
+
+
+.divFooter{
+	width: 20%;
+	margin: 1%;
+	padding: 0;
+	justify-content: center;
+}
+
+#logoNav{
+	width: 25%;
+	border-radius: 50%;
+}
+
+.bg-black{
+	background-color: rgba(0, 0, 0, 1);
+}
+
+.bg-transparent{
+	background-color: rgba(0, 0, 0, .5);
+}
+
+.logoGoosHeader{
+	width: 100%;
+	border-radius: 50%;	
+}
+
+.divIndex{
+	background-color: rgba(0, 0, 0, .5);
+	color: white;
+	z-index: 2;
+	position: absolute;
+	margin-top: 10px;
+}
+
+.divIndex > a{
+	text-decoration: none;
+	color: white;
+	text-align: center;
+}
+
+.textAlpha{
+	animation-name: textAlpha;
+	animation-duration: 5s;
+}
+
+.subtitleH1{
+	width: 99%;
+	position: absolute;
+	font-size: 1.1rem;
+	text-align: center;
+	color: white;
+	margin: 5px 0 !important;
+	background-color: rgba(0, 0, 0, .5);
+}
+
+.subtitleH2{
+	width: 100%;
+	font-size: 1rem;
+	text-align: center;
+	color: white;
+	margin: 15px 0px;
+}
+
+.paragraph{
+	width: 100%;
+	font-size: 0.85rem;
+	text-align: center;
+	color: white;
+}
+
+.description{
+	width: 100%;
+	font-size: 0.85rem;
+	text-align: left;
+	color: white;
+	font-style: italic;
+	margin: 15px;
+}
+
+.fontSize{
+	font-size: 0.8rem;
+}
+
+.justifyCenter{
+	text-align: center;
+}
+
+.colorWhite{
+	color: white;
+}
+
+/*Animaciones----------------------------------------*/
+
+#hover:hover{
+	color: red;
+}
+
+.rotate:hover{
+	transform: rotateZ(720deg);
+	cursor: pointer;
+	transition: transform 2s;
+}
+
+@keyframes textAlpha{
+	from{opacity: 0;}
+	to{opacity: 1;}
+}
+
+
+/*Breakpoints---------------------------------------*/
+
+@media only screen and (min-width: 600px){
+
+	.subtitleH1{
+		font-size: 1.5rem;
+	}
+
+	.subtitleH2{
+		font-size: 1.2rem;
+	}
+}
+
+@media only screen and (min-width: 768px){
+	
+	.divFooter{
+		width: 17%;
+	}
+
+	#logoNav{
+		width: 15%;
+	}
+}
+
+@media only screen and (min-width: 1024px){
+	
+	.divFooter{
+		width: 11%;
+	}
+
+	.subtitleH1{
+		font-size: 1.8rem;
+	}
+
+	.subtitleH2{
+		font-size: 1.5rem;
+	}
+}
+
+
+
+
+
