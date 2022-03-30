@@ -5,6 +5,9 @@
   to {
     opacity: 1; } }
 
+#hover:hover {
+  color: red; }
+
 header {
   font-family: "Montserrat", sans-serif; }
   header nav {
@@ -17,7 +20,7 @@ header {
     header nav div div ul li a {
       animation-name: textAlpha;
       animation-duration: 5s; }
-      header nav div div ul li a:hover {
+      header nav div div ul li a #hover:hover {
         color: red; }
     header nav div div ul li a img:hover {
       transform: rotateZ(720deg);

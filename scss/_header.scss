@@ -16,9 +16,9 @@ header{
 						a{
 							animation-name: textAlpha;
 							animation-duration: 5s;
-							&:hover{
-								color: map-get($map:$paleta,$key:'tres');
-							}
+							#hover:hover{
+	                            color: map-get($map:$paleta,$key:'tres');
+                            }
 						}
 					}
 				}
