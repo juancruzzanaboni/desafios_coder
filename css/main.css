@@ -34,9 +34,6 @@ header {
   background-attachment: fixed;
   background-repeat: no-repeat; }
 
-.bodyBackgroundStaff {
-  background-color: white; }
-
 .bodyBackgroundBuceo {
   background-image: url(../img/bodyBackgroundBuceo.jpg);
   background-color: black;
@@ -125,7 +122,8 @@ header {
     margin: 5px 0 !important;
     background-color: rgba(0, 0, 0, 0.5);
     animation-name: textAlpha;
-    animation-duration: 5s; }
+    animation-duration: 5s;
+    transform: translateX(-5px); }
     @media only screen and (min-width: 600px) {
       #mainContacto h1 {
         font-size: 1.5rem; } }
