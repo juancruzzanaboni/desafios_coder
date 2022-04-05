@@ -61,6 +61,13 @@ header {
 #mainIndex {
   height: 700px;
   font-family: "Montserrat", sans-serif; }
+  #mainIndex .music {
+    z-index: 10;
+    position: absolute;
+    display: none; }
+    @media only screen and (min-width: 1024px) {
+      #mainIndex .music {
+        display: flex; } }
 
 #mainBuceo, #mainStaff, #mainHospedaje {
   font-family: "Montserrat", sans-serif; }
@@ -101,6 +108,28 @@ header {
     color: white;
     animation-name: textAlpha;
     animation-duration: 5s; }
+    #mainBuceo section figure figcaption p .spam1, #mainStaff section figure figcaption p .spam1, #mainHospedaje section figure figcaption p .spam1 {
+      color: white; }
+    #mainBuceo section figure figcaption p .spam2, #mainStaff section figure figcaption p .spam2, #mainHospedaje section figure figcaption p .spam2 {
+      color: red; }
+    #mainBuceo section figure figcaption p .spam3, #mainStaff section figure figcaption p .spam3, #mainHospedaje section figure figcaption p .spam3 {
+      color: blueviolet; }
+    #mainBuceo section figure figcaption p .spam4, #mainStaff section figure figcaption p .spam4, #mainHospedaje section figure figcaption p .spam4 {
+      color: deepskyblue; }
+    #mainBuceo section figure figcaption p .spam5, #mainStaff section figure figcaption p .spam5, #mainHospedaje section figure figcaption p .spam5 {
+      color: orangered; }
+    #mainBuceo section figure figcaption p .spam6, #mainStaff section figure figcaption p .spam6, #mainHospedaje section figure figcaption p .spam6 {
+      color: forestgreen; }
+    #mainBuceo section figure figcaption p .spam7, #mainStaff section figure figcaption p .spam7, #mainHospedaje section figure figcaption p .spam7 {
+      color: limegreen; }
+    #mainBuceo section figure figcaption p .spam8, #mainStaff section figure figcaption p .spam8, #mainHospedaje section figure figcaption p .spam8 {
+      color: hotpink; }
+    #mainBuceo section figure figcaption p .spam9, #mainStaff section figure figcaption p .spam9, #mainHospedaje section figure figcaption p .spam9 {
+      color: yellow; }
+    #mainBuceo section figure figcaption p .spam10, #mainStaff section figure figcaption p .spam10, #mainHospedaje section figure figcaption p .spam10 {
+      color: salmon; }
+    #mainBuceo section figure figcaption p .spam11, #mainStaff section figure figcaption p .spam11, #mainHospedaje section figure figcaption p .spam11 {
+      color: saddlebrown; }
   #mainBuceo section figure figcaption .description, #mainStaff section figure figcaption .description, #mainHospedaje section figure figcaption .description {
     width: 90%;
     font-size: 0.85rem;
@@ -130,11 +159,10 @@ header {
     @media only screen and (min-width: 1024px) {
       #mainContacto h1 {
         font-size: 1.8rem; } }
-  #mainContacto form fieldset div legend {
+  #mainContacto form fieldset div legend, #mainContacto form fieldset div label {
     animation-name: textAlpha;
     animation-duration: 5s;
-    font-size: 0.8rem;
-    text-align: center; }
+    font-size: 0.8rem; }
 
 footer {
   background-color: black; }
@@ -149,3 +177,28 @@ footer {
     @media only screen and (min-width: 1024px) {
       footer div .divFooter {
         width: 11%; } }
+  footer div .divFooterContact {
+    width: 28%;
+    margin: 0.5%;
+    padding: 0;
+    justify-content: center; }
+    @media only screen and (min-width: 768px) {
+      footer div .divFooterContact {
+        width: 25%; } }
+    @media only screen and (min-width: 1024px) {
+      footer div .divFooterContact {
+        width: 19%; } }
+    footer div .divFooterContact ul {
+      list-style: circle;
+      color: white;
+      animation-name: textAlpha;
+      animation-duration: 5s;
+      font-size: 0.3rem; }
+      @media only screen and (min-width: 768px) {
+        footer div .divFooterContact ul {
+          font-size: 0.45rem; } }
+      @media only screen and (min-width: 1024px) {
+        footer div .divFooterContact ul {
+          font-size: 0.7rem; } }
+      footer div .divFooterContact ul .whatsapp {
+        color: limegreen; }

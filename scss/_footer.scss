@@ -13,5 +13,33 @@ footer{
 				width: 11%;
 			}
 		}
+		.divFooterContact{
+			width: 28%;
+			margin: 0.5%;
+			padding: 0;
+			justify-content: center;
+			@media only screen and (min-width: 768px){
+				width: 25%;
+			}
+			@media only screen and (min-width: 1024px){
+				width: 19%;
+			}
+			ul{
+				list-style: circle;
+				color: white;
+				animation-name: textAlpha;
+				animation-duration: 5s;
+				font-size: 0.3rem;
+				@media only screen and (min-width: 768px){
+					font-size: 0.45rem;
+				}
+				@media only screen and (min-width: 1024px){
+					font-size: 0.7rem;
+				}
+				.whatsapp{
+					color: limegreen;
+				}
+			}
+		}
 	}
 }

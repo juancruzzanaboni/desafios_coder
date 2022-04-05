@@ -30,6 +30,15 @@
 #mainIndex{
 	height: 700px;
 	font-family: $fontSecondary;
+	.music{
+		z-index: 10;
+		position: absolute;
+		display: none;
+		@media only screen and (min-width: 1024px){
+				display: flex;
+			}
+	}
+
 }
 
 #mainBuceo, #mainStaff, #mainHospedaje{
@@ -76,6 +85,40 @@
 					color: white;
 					animation-name: textAlpha;
 					animation-duration: 5s;
+					.spam1{
+						color: white;
+					}
+					.spam2{
+						color: red;
+					}
+					.spam3{
+						color: blueviolet;
+					}
+					.spam4{
+						color: deepskyblue;
+					}
+					.spam5{
+						color: orangered;
+					}
+					.spam6{
+						color: forestgreen;
+					}
+					.spam7{
+						color: limegreen;
+					}
+					.spam8{
+						color: hotpink;
+					}
+					.spam9{
+						color: yellow;
+					}
+					.spam10{
+						color: salmon;
+					}
+					.spam11{
+						color: saddlebrown;
+					}
+
 				}
 				.description{
 					width: 90%;
@@ -115,11 +158,10 @@
 	form{
 		fieldset{
 			div{
-				legend{
+				legend, label{
 					animation-name: textAlpha;
 					animation-duration: 5s;
 					font-size: 0.8rem;
-					text-align: center;
 				}
 			}
 		}

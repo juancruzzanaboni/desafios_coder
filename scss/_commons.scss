@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Red+Hat+Mono&display=swap');
 
+$fontMain:'Red Hat Mono', monospace;
+$fontSecondary:'Montserrat', sans-serif;
 
 //colors
 $backgroundBlack: black;
@@ -13,5 +16,4 @@ $w-25:25%;
 $paleta:(
 	'uno':black,
 	'dos':white,
-	'tres':red,
-	'cuatro':violet,);
+	'tres':red,);
