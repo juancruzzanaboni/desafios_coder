@@ -64,7 +64,8 @@ header {
   #mainIndex .music {
     z-index: 10;
     position: absolute;
-    display: none; }
+    display: none;
+    margin: 2%; }
     @media only screen and (min-width: 1024px) {
       #mainIndex .music {
         display: flex; } }
