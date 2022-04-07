@@ -38,7 +38,7 @@ header {
   background-repeat: no-repeat; }
 
 .bodyBackgroundBuceo {
-  background-image: url(../img/bodyBackgroundBuceo.jpg);
+  background-image: url(../img/backgrounds/bodyBackgroundBuceo.jpg);
   background-color: black;
   background-size: 100%;
   background-position: center;
@@ -46,7 +46,7 @@ header {
   background-repeat: no-repeat; }
 
 .bodyBackgroundHospedaje {
-  background-image: url(../img/bodyBackgroundHospedaje.jpg);
+  background-image: url(../img/backgrounds/bodyBackgroundHospedaje.jpg);
   background-color: black;
   background-size: 100%;
   background-position: center;
@@ -54,7 +54,7 @@ header {
   background-repeat: no-repeat; }
 
 .bodyBackgroundContacto {
-  background-image: url(../img/bodyBackgroundContacto.jpg);
+  background-image: url(../img/backgrounds/bodyBackgroundContacto.jpg);
   background-color: black;
   background-size: 100%;
   background-position: center;

@@ -18,7 +18,7 @@
 
 @each $background in bodyBackgroundBuceo, bodyBackgroundHospedaje, bodyBackgroundContacto{
 	.#{$background}{
-		background-image: url(../img/#{$background}.jpg);
+		background-image: url(../img/backgrounds/#{$background}.jpg);
 		background-color: $backgroundBlack;
 		background-size: $w-100;
 		background-position: center;
