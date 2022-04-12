@@ -168,6 +168,41 @@ header {
     animation-duration: 5s;
     font-size: 0.8rem; }
 
+#error404 {
+  width: 100%; }
+  #error404 .divLogo404 {
+    width: 100%;
+    display: flex;
+    flex-direction: column; }
+    #error404 .divLogo404 a {
+      width: 25%;
+      align-self: flex-start; }
+      @media only screen and (min-width: 1024px) {
+        #error404 .divLogo404 a {
+          width: 15%; } }
+      #error404 .divLogo404 a img {
+        width: 100%; }
+  #error404 .divPageNotFound {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    #error404 .divPageNotFound p {
+      font-size: 2.5rem;
+      text-align: center; }
+      @media only screen and (min-width: 600px) {
+        #error404 .divPageNotFound p {
+          font-size: 3.5rem; } }
+  #error404 .divDanger {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center; }
+    #error404 .divDanger img {
+      width: 70%;
+      align-self: center; }
+
 footer {
   background-color: black; }
   footer div .divFooter {
@@ -185,10 +220,12 @@ footer {
     width: 28%;
     margin: 0.5%;
     padding: 0;
-    justify-content: center; }
+    justify-content: center;
+    display: none; }
     @media only screen and (min-width: 768px) {
       footer div .divFooterContact {
-        width: 25%; } }
+        width: 25%;
+        display: block; } }
     @media only screen and (min-width: 1024px) {
       footer div .divFooterContact {
         width: 19%; } }

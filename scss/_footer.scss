@@ -18,8 +18,10 @@ footer{
 			margin: 0.5%;
 			padding: 0;
 			justify-content: center;
+			display: none;
 			@media only screen and (min-width: 768px){
 				width: 25%;
+				display: block;
 			}
 			@media only screen and (min-width: 1024px){
 				width: 19%;
