@@ -67,11 +67,8 @@ header {
   #mainIndex .music {
     z-index: 2;
     position: absolute;
-    display: none;
+    display: flex;
     margin: 1%; }
-    @media only screen and (min-width: 1024px) {
-      #mainIndex .music {
-        display: flex; } }
 
 #mainBuceo, #mainStaff, #mainHospedaje {
   font-family: "Montserrat", sans-serif; }
